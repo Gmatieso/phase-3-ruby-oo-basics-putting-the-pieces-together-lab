@@ -9,7 +9,7 @@ class Book
 
     #defining our turn method 
     def turn_page
-        puts "Flipping the page ... wow, you read fast!"
+        puts "Flipping the page...wow, you read fast!"
     end 
 end
 #creating an instance of our new class 
@@ -21,6 +21,9 @@ puts books.author = "Agatha Christie"
 puts books.page_count = 272
 #puts the genre
 puts books.genre = "Mystery"
+
+#turns book page method 
+puts books.turn_page
 
 
 

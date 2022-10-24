@@ -11,4 +11,7 @@ class Book
         
     end
 end
+#creating an instance of our new class 
+books = Book.new
+
 

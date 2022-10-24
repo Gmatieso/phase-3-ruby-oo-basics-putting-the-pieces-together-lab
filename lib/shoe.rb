@@ -6,6 +6,10 @@ class Shoe
         @brand = brand
     end
 
+    #defining our cobble method
+    def cobble
+        puts "shoe has been repaired"
+
         
     end
 end

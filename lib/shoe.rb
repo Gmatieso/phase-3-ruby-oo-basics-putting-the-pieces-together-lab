@@ -8,8 +8,8 @@ class Shoe
 
     #defining our cobble method
     def cobble
-        puts "shoe has been repaired"
-
-        
+        puts "shoe has been repaired"  
     end
 end
+#creating an instance of our new class 
+shoes = Shoe.new("Adidas")
